@@ -61,7 +61,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$left-margin: 150px;
+150px: 150px;
 
 .wrapper {
     width: 95%;
@@ -82,7 +82,7 @@ $left-margin: 150px;
     &__items {
     }
     &__image {
-        width: $left-margin;
+        width: 150px;
         height: 100%;
         position: absolute;
         left: 0;
@@ -91,9 +91,9 @@ $left-margin: 150px;
         background-position: center;
     }
     &__info {
-        width: calc(100% - $left-margin);
+        width: calc(100% - 150px);
         height: 100%;;
-        margin-left: $left-margin;
+        margin-left: 150px;
         padding: 20px 15px;
     }
     &__tag {
