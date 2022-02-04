@@ -61,7 +61,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-150px: 150px;
 
 .wrapper {
     width: 95%;
@@ -79,8 +78,7 @@ export default {
     letter-spacing: .01em;
     overflow: hidden;
     position: relative;
-    &__items {
-    }
+ 
     &__image {
         width: 150px;
         height: 100%;
